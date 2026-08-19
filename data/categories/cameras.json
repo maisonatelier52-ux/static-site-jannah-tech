@@ -1,0 +1,438 @@
+{
+  "articles": [
+    {
+      "slug": "inside-the-sensor-shortage-that-delayed-camera-launches",
+      "title": "Inside the sensor shortage that delayed three camera launches this year",
+      "subtitle": "A component nobody outside the industry usually thinks about",
+      "excerpt": "A shortage of a single sensor component pushed back launch dates across three major camera lines this year.",
+      "category": "cameras",
+      "tags": [
+        "cameras"
+      ],
+      "author": "ashraf",
+      "date": "2025-11-05",
+      "year": "2025",
+      "month": "11",
+      "day": "05",
+      "image": "/images/posts/default-cover.jpg",
+      "readingTime": "4 minutes read",
+      "views": 3420,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Three separate camera launches slipped their announced release windows this year, and all three manufacturers eventually pointed to the same root cause: a shortage of a specific sensor-stacking component sourced from a small number of suppliers."
+        },
+        {
+          "type": "heading",
+          "id": "why-one-part-matters",
+          "text": "Why one part can stall a whole product line"
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlike more commoditized components, high-end stacked sensors have very few qualified suppliers, so a disruption at one factory can ripple across multiple brands at once."
+        },
+        {
+          "type": "paragraph",
+          "text": "Manufacturers say supply is stabilizing, with delayed models now expected within the next two quarters."
+        }
+      ],
+      "updatedAt": "2025-11-05T06:20:00",
+      "commentsList": []
+    },
+    {
+      "slug": "the-megapixel-race-quietly-ended",
+      "title": "The megapixel race quietly ended. Here's what replaced it",
+      "subtitle": "Camera marketing stopped leading with a number a few years ago",
+      "excerpt": "Camera spec sheets used to open with a megapixel count. Now the number that gets top billing is something else entirely.",
+      "category": "cameras",
+      "tags": [
+        "cameras",
+        "tech"
+      ],
+      "author": "admin",
+      "date": "2025-07-22",
+      "year": "2025",
+      "month": "07",
+      "day": "22",
+      "image": "/images/posts/action-camera.jpg",
+      "readingTime": "5 minutes read",
+      "views": 6130,
+      "comments": 5,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "There was a stretch of years where every camera launch led with a bigger megapixel count than the last. That race has quietly wound down, and manufacturers now lead with computational processing and sensor size instead."
+        },
+        {
+          "type": "heading",
+          "id": "what-changed",
+          "text": "What actually changed"
+        },
+        {
+          "type": "paragraph",
+          "text": "Most casual buyers hit diminishing returns on resolution well before professionals did, and manufacturers noticed that marketing around low-light performance and video capability converted better."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sensor size now gets top billing over resolution",
+            "Computational processing is marketed as a headline feature",
+            "Video specs increasingly outrank stills specs in launch materials"
+          ]
+        }
+      ],
+      "updatedAt": "2025-07-22T06:20:00",
+      "commentsList": []
+    },
+    {
+      "slug": "why-film-cameras-are-back-on-store-shelves",
+      "title": "Why film cameras are suddenly back on store shelves",
+      "subtitle": "A format the industry left for dead is getting new stock again",
+      "excerpt": "After years of discontinued lines and secondhand-only availability, several manufacturers are putting new film cameras back into production.",
+      "category": "cameras",
+      "tags": [
+        "cameras"
+      ],
+      "author": "ashraf",
+      "date": "2025-03-11",
+      "year": "2025",
+      "month": "03",
+      "day": "11",
+      "image": "/images/posts/impossible-i1.jpg",
+      "readingTime": "4 minutes read",
+      "views": 4720,
+      "comments": 4,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For most of the last two decades, buying a new film camera meant buying secondhand. That's starting to change as demand from a younger, largely first-time film audience has convinced a few manufacturers it's worth restarting limited production."
+        },
+        {
+          "type": "heading",
+          "id": "who-is-buying",
+          "text": "Who's actually buying these"
+        },
+        {
+          "type": "paragraph",
+          "text": "Retailers report the bulk of buyers are under 30 and have never owned a film camera before, treating it more as a deliberate creative choice than a nostalgia purchase."
+        },
+        {
+          "type": "paragraph",
+          "text": "Film stock pricing remains the biggest barrier to sustained growth in the category, with some popular stocks still selling out within days of restocking."
+        }
+      ],
+      "updatedAt": "2025-03-11T06:20:00",
+      "commentsList": []
+    },
+    {
+      "slug": "how-action-cameras-learned-to-shoot-in-near-total-darkness",
+      "title": "How action cameras learned to shoot in near total darkness",
+      "subtitle": "Sensor tech trickles down from professional gear",
+      "excerpt": "Low-light performance used to be the exclusive domain of expensive mirrorless bodies. That's changing fast for rugged action cameras.",
+      "category": "cameras",
+      "tags": [
+        "cameras",
+        "tech"
+      ],
+      "author": "admin",
+      "date": "2024-05-21",
+      "year": "2024",
+      "month": "05",
+      "day": "21",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "5 minutes read",
+      "views": 13123,
+      "comments": 24,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "overview",
+          "label": "Overview"
+        },
+        {
+          "id": "details",
+          "label": "The details"
+        },
+        {
+          "id": "verdict",
+          "label": "Our take"
+        }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "overview",
+          "text": "Overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "Low-light performance used to be the exclusive domain of expensive mirrorless bodies. That's changing fast for rugged action cameras."
+        },
+        {
+          "type": "heading",
+          "id": "sensor-tech",
+          "text": "Sensor tech trickles down"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sensor tech trickles down from professional gear. Low-light performance used to be the exclusive domain of expensive mirrorless bodies, but the sensor size in this generation of action cameras has grown by 25% compared to three years ago, and that extra surface area is doing most of the work.",
+          "bold": [
+            "grown by 25%"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In our test footage, shot at dusk with no supplemental lighting, noise stayed manageable down to roughly 3 lux, a threshold that would have been unusable on this category of camera as recently as two generations ago.",
+          "bold": [
+            "down to roughly 3 lux"
+          ]
+        },
+        {
+          "type": "heading",
+          "id": "stabilization",
+          "text": "Stabilization in the dark"
+        },
+        {
+          "type": "paragraph",
+          "text": "Image stabilization gets noticeably more aggressive in low light to compensate for longer exposure times, and the crop that results is more visible than in daylight — worth knowing if you're framing tight shots.",
+          "bold": [
+            "more visible than in daylight"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Battery drain is the other tradeoff: continuous night recording pulled through a full charge in just under 70 minutes in our testing, roughly 20 minutes shorter than the same camera shooting in daylight.",
+          "bold": [
+            "just under 70 minutes"
+          ]
+        },
+        {
+          "type": "heading",
+          "id": "our-take",
+          "text": "Our take"
+        },
+        {
+          "type": "paragraph",
+          "text": "It's an encouraging sign for where the category is headed next, even if not every question has been answered yet — battery life in cold, dark conditions is still the biggest limiting factor."
+        }
+      ],
+      "updatedAt": "2024-05-21T08:08:00",
+      "commentsList": [
+        {
+          "id": "how-action-cameras-learned-to-shoot-in-near-total-darkness-c1",
+          "name": "Owen P.",
+          "date": "2024-05-21T07:00:00",
+          "text": "The numbers here are more useful than most of what I've seen written about this so far."
+        },
+        {
+          "id": "how-action-cameras-learned-to-shoot-in-near-total-darkness-c2",
+          "name": "Tomasz W.",
+          "date": "2024-05-21T16:00:00",
+          "text": "Fair review. Still on the fence but this answered most of my open questions."
+        },
+        {
+          "id": "how-action-cameras-learned-to-shoot-in-near-total-darkness-c3",
+          "name": "Fatima Z.",
+          "date": "2024-05-22T01:00:00",
+          "text": "Appreciate that this didn't just repeat the marketing angle. Feels like an actual test."
+        },
+        {
+          "id": "how-action-cameras-learned-to-shoot-in-near-total-darkness-c4",
+          "name": "Ingrid B.",
+          "date": "2024-05-22T10:00:00",
+          "text": "Following up in a few months to see if this still holds — bookmarking."
+        },
+        {
+          "id": "how-action-cameras-learned-to-shoot-in-near-total-darkness-c5",
+          "name": "Ben C.",
+          "date": "2024-05-22T19:00:00",
+          "text": "Been waiting for someone to actually test this properly instead of just repeating the press release. Good stuff."
+        }
+      ],
+      "imageCaption": "Footage shot at dusk with no additional lighting, straight off the sensor.",
+      "imageCredit": "Staff photo",
+      "premium": true,
+      "linksOfInterest": [
+        {
+          "label": "The compact camera comeback nobody predicted",
+          "href": "/cameras/the-compact-camera-comeback-nobody-predicted"
+        },
+        {
+          "label": "Every camera review we've published this year",
+          "href": "/cameras"
+        }
+      ]
+    },
+    {
+      "slug": "the-compact-camera-comeback-nobody-predicted",
+      "title": "The compact camera comeback nobody predicted",
+      "subtitle": "Phones killed point-and-shoots, then revived them",
+      "excerpt": "A wave of creators disillusioned with computational photography is driving demand for simple, honest compact cameras again.",
+      "category": "cameras",
+      "tags": [
+        "cameras",
+        "tech"
+      ],
+      "author": "admin",
+      "date": "2023-08-05",
+      "year": "2023",
+      "month": "08",
+      "day": "05",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "4 minutes read",
+      "views": 30339,
+      "comments": 8,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "overview",
+          "label": "Overview"
+        },
+        {
+          "id": "details",
+          "label": "The details"
+        },
+        {
+          "id": "verdict",
+          "label": "Our take"
+        }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "overview",
+          "text": "Overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "A wave of creators disillusioned with computational photography is driving demand for simple, honest compact cameras again."
+        },
+        {
+          "type": "heading",
+          "id": "details",
+          "text": "The details"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phones killed point-and-shoots, then revived them. The wave of creators disillusioned with computational photography is driving demand for simple, honest compact cameras again."
+        },
+        {
+          "type": "heading",
+          "id": "verdict",
+          "text": "Our take"
+        },
+        {
+          "type": "paragraph",
+          "text": "It's an encouraging sign for where the category is headed next, even if not every question has been answered yet."
+        }
+      ],
+      "updatedAt": "2023-08-05T16:13:00",
+      "commentsList": [
+        {
+          "id": "the-compact-camera-comeback-nobody-predicted-c1",
+          "name": "Ben C.",
+          "date": "2023-08-05T05:00:00",
+          "text": "Fair review. Still on the fence but this answered most of my open questions."
+        },
+        {
+          "id": "the-compact-camera-comeback-nobody-predicted-c2",
+          "name": "Daniel O.",
+          "date": "2023-08-05T14:00:00",
+          "text": "Appreciate that this didn't just repeat the marketing angle. Feels like an actual test."
+        },
+        {
+          "id": "the-compact-camera-comeback-nobody-predicted-c3",
+          "name": "Nadia H.",
+          "date": "2023-08-05T23:00:00",
+          "text": "Following up in a few months to see if this still holds — bookmarking."
+        },
+        {
+          "id": "the-compact-camera-comeback-nobody-predicted-c4",
+          "name": "Sofia R.",
+          "date": "2023-08-06T08:00:00",
+          "text": "Been waiting for someone to actually test this properly instead of just repeating the press release. Good stuff."
+        },
+        {
+          "id": "the-compact-camera-comeback-nobody-predicted-c5",
+          "name": "Carlos M.",
+          "date": "2023-08-06T17:00:00",
+          "text": "This matches what I've seen too — took a few weeks before it really clicked for me."
+        }
+      ]
+    },
+    {
+      "slug": "the-best-action-camera-you-can-buy",
+      "title": "The best action camera you can buy",
+      "subtitle": "Small body, big footage",
+      "excerpt": "Apple Watch review: Design. For a slightly more opinionated version of the video review above, here's the male half of the team...",
+      "category": "cameras",
+      "tags": [
+        "cameras",
+        "gallery",
+        "video"
+      ],
+      "author": "ashraf",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "6 minutes read",
+      "views": 12843,
+      "comments": 0,
+      "rating": {
+        "type": "score",
+        "value": "8.9"
+      },
+      "featured": false,
+      "trending": true,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Action cameras have matured fast, and this year's flagship shows just how far stabilization software has come — handheld footage now looks gimbal-smooth straight out of the box."
+        },
+        {
+          "type": "image",
+          "src": "/images/posts/action-camera-detail.jpg",
+          "alt": "Action camera mounted on a helmet"
+        },
+        {
+          "type": "heading",
+          "text": "Image quality"
+        },
+        {
+          "type": "paragraph",
+          "text": "4K60 footage holds up well in daylight, with only minor softness creeping in at the edges of the ultra-wide lens."
+        },
+        {
+          "type": "heading",
+          "text": "Battery and mounting"
+        },
+        {
+          "type": "paragraph",
+          "text": "The swappable battery system is a welcome return, and the mounting ecosystem remains compatible with older accessories."
+        }
+      ],
+      "updatedAt": "2016-12-11T11:16:00",
+      "commentsList": []
+    }
+  ]
+}

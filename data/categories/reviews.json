@@ -1,0 +1,621 @@
+{
+  "articles": [
+    {
+      "slug": "long-term-review-six-months-with-a-folding-phone",
+      "title": "Long-term review: six months with a folding phone",
+      "subtitle": "The hinge held up, but habits didn't fully change",
+      "excerpt": "After half a year of daily use, here's what actually changed about how we use a phone that folds in half, and what didn't.",
+      "category": "reviews",
+      "tags": [
+        "reviews",
+        "tech"
+      ],
+      "author": "admin",
+      "date": "2025-10-10",
+      "year": "2025",
+      "month": "10",
+      "day": "10",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "5 minutes read",
+      "views": 8264,
+      "comments": 16,
+      "rating": 4.2,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "overview",
+          "label": "Overview"
+        },
+        {
+          "id": "details",
+          "label": "The details"
+        },
+        {
+          "id": "verdict",
+          "label": "Our take"
+        }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "overview",
+          "text": "Overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "After half a year of daily use, here's what actually changed about how we use a phone that folds in half, and what didn't."
+        },
+        {
+          "type": "heading",
+          "id": "the-hinge",
+          "text": "The hinge held up"
+        },
+        {
+          "type": "paragraph",
+          "text": "The hinge held up, but habits didn't fully change. After half a year and an estimated 40,000 individual folds, there's no perceptible looseness and the crease is only visible under direct light at a steep angle.",
+          "bold": [
+            "an estimated 40,000 individual folds"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "What did change was expectations: within the first month, the novelty of the larger inner screen wore off, and by month three the phone was mostly used folded closed, exactly like a conventional phone, for roughly 80% of interactions.",
+          "bold": [
+            "roughly 80% of interactions"
+          ]
+        },
+        {
+          "type": "heading",
+          "id": "battery-degradation",
+          "text": "Battery over time"
+        },
+        {
+          "type": "paragraph",
+          "text": "Battery capacity measured at the six-month mark had dropped to about 94% of its original rating, which is in line with a standard non-folding flagship over the same period and better than we expected given the more complex internal layout.",
+          "bold": [
+            "about 94% of its original rating"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "The fold stopped being a party trick around week two and just became the phone."
+        },
+        {
+          "type": "heading",
+          "id": "our-take",
+          "text": "Our take"
+        },
+        {
+          "type": "paragraph",
+          "text": "It's an encouraging sign for where the category is headed next, even if not every question has been answered yet — we still want to see a second and third year of use before calling folding durability solved."
+        }
+      ],
+      "updatedAt": "2025-10-10T12:28:00",
+      "commentsList": [
+        {
+          "id": "long-term-review-six-months-with-a-folding-phone-c1",
+          "name": "Liam F.",
+          "date": "2025-10-10T06:00:00",
+          "text": "The numbers here are more useful than most of what I've seen written about this so far."
+        },
+        {
+          "id": "long-term-review-six-months-with-a-folding-phone-c2",
+          "name": "Priya K.",
+          "date": "2025-10-10T15:00:00",
+          "text": "Fair review. Still on the fence but this answered most of my open questions."
+        },
+        {
+          "id": "long-term-review-six-months-with-a-folding-phone-c3",
+          "name": "Amara N.",
+          "date": "2025-10-11T00:00:00",
+          "text": "Appreciate that this didn't just repeat the marketing angle. Feels like an actual test."
+        },
+        {
+          "id": "long-term-review-six-months-with-a-folding-phone-c4",
+          "name": "Owen P.",
+          "date": "2025-10-11T09:00:00",
+          "text": "Following up in a few months to see if this still holds — bookmarking."
+        },
+        {
+          "id": "long-term-review-six-months-with-a-folding-phone-c5",
+          "name": "Tomasz W.",
+          "date": "2025-10-11T18:00:00",
+          "text": "Been waiting for someone to actually test this properly instead of just repeating the press release. Good stuff."
+        }
+      ],
+      "imageCaption": "Six months and roughly 40,000 folds into daily use.",
+      "imageCredit": "Staff photo",
+      "premium": true,
+      "linksOfInterest": [
+        {
+          "label": "Is the tablet finally replacing the laptop for students",
+          "href": "/tablets/is-the-tablet-finally-replacing-the-laptop-for-students"
+        },
+        {
+          "label": "Every phone review we've published this year",
+          "href": "/phones"
+        }
+      ]
+    },
+    {
+      "slug": "review-the-noise-cancelling-earbuds-that-finally-got-comfortable",
+      "title": "Review: the noise-cancelling earbuds that finally got comfortable",
+      "subtitle": "Small design tweaks make a big difference",
+      "excerpt": "After years of earbuds that fell out during a run, this pair finally nails the fit without sacrificing sound quality.",
+      "category": "reviews",
+      "tags": [
+        "reviews",
+        "tech"
+      ],
+      "author": "ashraf",
+      "date": "2025-07-12",
+      "year": "2025",
+      "month": "07",
+      "day": "12",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "5 minutes read",
+      "views": 39150,
+      "comments": 18,
+      "rating": 3.4,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "overview",
+          "label": "Overview"
+        },
+        {
+          "id": "details",
+          "label": "The details"
+        },
+        {
+          "id": "verdict",
+          "label": "Our take"
+        }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "overview",
+          "text": "Overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "After years of earbuds that fell out during a run, this pair finally nails the fit without sacrificing sound quality."
+        },
+        {
+          "type": "heading",
+          "id": "the-details",
+          "text": "The details"
+        },
+        {
+          "type": "paragraph",
+          "text": "Small design tweaks make a big difference. After years of earbuds that fell out during a run, this pair finally nails the fit without sacrificing sound quality, thanks mostly to a new four-size tip set and a shell that sits lower in the ear canal.",
+          "bold": [
+            "a new four-size tip set"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "In our stability testing, the earbuds survived 40 minutes of interval sprints and a full studio dance class without a single reseat, which is more than we can say for the previous generation or for most competitors in this price range.",
+          "bold": [
+            "40 minutes of interval sprints"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Active noise cancelling is rated at up to 32dB of reduction, and in practice it flattens most office chatter and subway rumble, though sharp transient sounds like keyboard clacks still get through at the edges.",
+          "bold": [
+            "up to 32dB of reduction"
+          ]
+        },
+        {
+          "type": "heading",
+          "id": "battery-and-case",
+          "text": "Battery and case"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rated battery life is 7 hours per charge with noise cancelling on, or 9.5 hours with it off, and the case adds three additional full charges before it needs to be plugged in itself.",
+          "bold": [
+            "7 hours per charge",
+            "three additional full charges"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "This is the first pair in this price bracket we've genuinely forgotten we were wearing."
+        },
+        {
+          "type": "heading",
+          "id": "our-take",
+          "text": "Our take"
+        },
+        {
+          "type": "paragraph",
+          "text": "It's an encouraging sign for where the category is headed next, even if not every question has been answered yet — durability over multiple years is still an open question we plan to revisit."
+        }
+      ],
+      "updatedAt": "2025-07-12T17:29:00",
+      "commentsList": [
+        {
+          "id": "review-the-noise-cancelling-earbuds-that-finally-got-comfortable-c1",
+          "name": "Nadia H.",
+          "date": "2025-07-12T04:00:00",
+          "text": "Curious how this holds up after a year rather than a few months. Any plans for a follow-up?"
+        },
+        {
+          "id": "review-the-noise-cancelling-earbuds-that-finally-got-comfortable-c2",
+          "name": "Sofia R.",
+          "date": "2025-07-12T13:00:00",
+          "text": "Honestly wasn't expecting this to be as solid as it is. Glad I read the whole thing before deciding."
+        },
+        {
+          "id": "review-the-noise-cancelling-earbuds-that-finally-got-comfortable-c3",
+          "name": "Carlos M.",
+          "date": "2025-07-12T22:00:00",
+          "text": "The comparison to the previous generation is what sold me. Appreciate the specifics instead of vague praise."
+        },
+        {
+          "id": "review-the-noise-cancelling-earbuds-that-finally-got-comfortable-c4",
+          "name": "Jae-won L.",
+          "date": "2025-07-13T07:00:00",
+          "text": "Disagree a bit on the middle section, but the overall conclusion tracks with my own experience."
+        },
+        {
+          "id": "review-the-noise-cancelling-earbuds-that-finally-got-comfortable-c5",
+          "name": "Yuki S.",
+          "date": "2025-07-13T16:00:00",
+          "text": "Wish more outlets covered the downsides this clearly instead of burying them at the end."
+        }
+      ],
+      "imageCaption": "The redesigned ear tips are the headline change over last year's model.",
+      "imageCredit": "Staff photo",
+      "premium": true,
+      "linksOfInterest": [
+        {
+          "label": "Sync by 50 wireless headphones review",
+          "href": "/headphones/sync-by-50-wireless-headphones-review"
+        },
+        {
+          "label": "Every earbud review we've published this year",
+          "href": "/headphones"
+        }
+      ]
+    },
+    {
+      "slug": "review-a-mechanical-keyboard-built-for-people-who-hate-loud-keyboards",
+      "title": "Review: a mechanical keyboard built for people who hate loud keyboards",
+      "subtitle": "Quiet doesn't have to mean mushy",
+      "excerpt": "This board promises satisfying tactile feedback without waking up the rest of the house, and mostly delivers on that promise.",
+      "category": "reviews",
+      "tags": [
+        "reviews",
+        "tech"
+      ],
+      "author": "admin",
+      "date": "2024-06-16",
+      "year": "2024",
+      "month": "06",
+      "day": "16",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "8 minutes read",
+      "views": 30147,
+      "comments": 15,
+      "rating": 4.0,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "overview",
+          "label": "Overview"
+        },
+        {
+          "id": "details",
+          "label": "The details"
+        },
+        {
+          "id": "verdict",
+          "label": "Our take"
+        }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "overview",
+          "text": "Overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "This board promises satisfying tactile feedback without waking up the rest of the house, and mostly delivers on that promise."
+        },
+        {
+          "type": "heading",
+          "id": "details",
+          "text": "The details"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiet doesn't have to mean mushy. This board promises satisfying tactile feedback without waking up the rest of the house, and mostly delivers on that promise."
+        },
+        {
+          "type": "heading",
+          "id": "verdict",
+          "text": "Our take"
+        },
+        {
+          "type": "paragraph",
+          "text": "It's an encouraging sign for where the category is headed next, even if not every question has been answered yet."
+        }
+      ],
+      "updatedAt": "2024-06-16T14:11:00",
+      "commentsList": [
+        {
+          "id": "review-a-mechanical-keyboard-built-for-people-who-hate-loud-keyboards-c1",
+          "name": "Owen P.",
+          "date": "2024-06-16T07:00:00",
+          "text": "Disagree a bit on the middle section, but the overall conclusion tracks with my own experience."
+        },
+        {
+          "id": "review-a-mechanical-keyboard-built-for-people-who-hate-loud-keyboards-c2",
+          "name": "Tomasz W.",
+          "date": "2024-06-16T16:00:00",
+          "text": "Wish more outlets covered the downsides this clearly instead of burying them at the end."
+        },
+        {
+          "id": "review-a-mechanical-keyboard-built-for-people-who-hate-loud-keyboards-c3",
+          "name": "Fatima Z.",
+          "date": "2024-06-17T01:00:00",
+          "text": "Saved this to send to a few people who keep asking me about it. Exactly the breakdown I needed."
+        },
+        {
+          "id": "review-a-mechanical-keyboard-built-for-people-who-hate-loud-keyboards-c4",
+          "name": "Ingrid B.",
+          "date": "2024-06-17T10:00:00",
+          "text": "The numbers here are more useful than most of what I've seen written about this so far."
+        },
+        {
+          "id": "review-a-mechanical-keyboard-built-for-people-who-hate-loud-keyboards-c5",
+          "name": "Ben C.",
+          "date": "2024-06-17T19:00:00",
+          "text": "Fair review. Still on the fence but this answered most of my open questions."
+        }
+      ]
+    },
+    {
+      "slug": "apple-retina-imac-pictures",
+      "title": "Apple Retina iMac pictures",
+      "subtitle": "A close look at the display and chassis",
+      "excerpt": "Apple Watch review: Design. For a slightly more opinionated version of the video review above, here's the male half of the team...",
+      "category": "reviews",
+      "tags": [
+        "gallery",
+        "tech"
+      ],
+      "author": "ashraf",
+      "date": "2016-12-06",
+      "year": "2016",
+      "month": "12",
+      "day": "06",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "3 minutes read",
+      "views": 2410,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A photo tour of the Retina iMac's display quality and the redesigned aluminium chassis, straight out of the box."
+        }
+      ],
+      "updatedAt": "2016-12-06T09:52:00",
+      "commentsList": []
+    },
+    {
+      "slug": "wireless-charging-pads-finally-stopped-overheating",
+      "title": "Wireless charging pads finally stopped overheating",
+      "subtitle": "A small fix that took years to arrive",
+      "excerpt": "Early wireless chargers ran hot enough to trigger phones' thermal throttling mid-charge. A new generation of coil designs has quietly fixed the problem.",
+      "category": "reviews",
+      "tags": [
+        "reviews",
+        "tech"
+      ],
+      "author": "admin",
+      "date": "2016-11-14",
+      "year": "2016",
+      "month": "11",
+      "day": "14",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "3 minutes read",
+      "views": 2210,
+      "comments": 1,
+      "rating": {
+        "type": "percent",
+        "value": 82
+      },
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "overview",
+          "label": "Overview"
+        },
+        {
+          "id": "details",
+          "label": "The details"
+        },
+        {
+          "id": "verdict",
+          "label": "Our take"
+        }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "overview",
+          "text": "Overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "Early wireless chargers ran hot enough to trigger phones' thermal throttling mid-charge. A new generation of coil designs has quietly fixed the problem."
+        },
+        {
+          "type": "heading",
+          "id": "the-fix",
+          "text": "What actually changed"
+        },
+        {
+          "type": "paragraph",
+          "text": "Newer pads spread the charging coil's heat across a wider surface instead of concentrating it under the phone, cutting peak temperatures by a noticeable margin.",
+          "bold": [
+            "cutting peak temperatures"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Firmware improvements on the phone side also help, pacing the charge rate before heat becomes an issue rather than reacting after the fact."
+        },
+        {
+          "type": "heading",
+          "id": "our-take",
+          "text": "Our take"
+        },
+        {
+          "type": "paragraph",
+          "text": "It's a small, unglamorous fix, but one that makes wireless charging finally feel as reliable as plugging in a cable."
+        }
+      ],
+      "updatedAt": "2016-11-14T09:00:00",
+      "commentsList": [
+        {
+          "id": "wireless-charging-pads-finally-stopped-overheating-c1",
+          "name": "Owen R.",
+          "date": "2016-11-14T15:00:00",
+          "text": "Good to know, my old pad used to get uncomfortably warm."
+        }
+      ],
+      "imageCaption": "A wireless charging pad undergoing a thermal test.",
+      "imageCredit": "Staff photo",
+      "premium": false,
+      "linksOfInterest": [
+        {
+          "label": "Apple Retina iMac pictures",
+          "href": "/reviews/apple-retina-imac-pictures"
+        },
+        {
+          "label": "Every review we've published this year",
+          "href": "/reviews"
+        }
+      ]
+    },
+    {
+      "slug": "budget-earbuds-that-quietly-beat-the-flagship-pair",
+      "title": "Budget earbuds that quietly beat the flagship pair",
+      "subtitle": "Sometimes the cheaper option is the better one",
+      "excerpt": "A side-by-side test found the mid-range earbuds matched or beat their flagship sibling on call quality and battery life, for less than half the price.",
+      "category": "reviews",
+      "tags": [
+        "reviews",
+        "headphones"
+      ],
+      "author": "ashraf",
+      "date": "2016-10-30",
+      "year": "2016",
+      "month": "10",
+      "day": "30",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "4 minutes read",
+      "views": 2340,
+      "comments": 2,
+      "rating": {
+        "type": "percent",
+        "value": 88
+      },
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "overview",
+          "label": "Overview"
+        },
+        {
+          "id": "details",
+          "label": "The details"
+        },
+        {
+          "id": "verdict",
+          "label": "Our take"
+        }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "overview",
+          "text": "Overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "A side-by-side test found the mid-range earbuds matched or beat their flagship sibling on call quality and battery life, for less than half the price."
+        },
+        {
+          "type": "heading",
+          "id": "the-test",
+          "text": "How the test worked"
+        },
+        {
+          "type": "paragraph",
+          "text": "Both pairs were used for two weeks of daily calls and commutes, with battery life logged after each full charge cycle.",
+          "bold": [
+            "two weeks of daily calls"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The budget pair's microphone array handled wind noise noticeably better, likely due to a simpler but more conservative noise-gating algorithm."
+        },
+        {
+          "type": "heading",
+          "id": "our-take",
+          "text": "Our take"
+        },
+        {
+          "type": "paragraph",
+          "text": "The flagship pair still wins on app features and case design, but on the fundamentals, the cheaper pair is hard to argue against."
+        }
+      ],
+      "updatedAt": "2016-10-30T09:00:00",
+      "commentsList": [
+        {
+          "id": "budget-earbuds-that-quietly-beat-the-flagship-pair-c1",
+          "name": "Farah S.",
+          "date": "2016-10-30T13:00:00",
+          "text": "Switched based on this, no regrets so far."
+        },
+        {
+          "id": "budget-earbuds-that-quietly-beat-the-flagship-pair-c2",
+          "name": "Devon K.",
+          "date": "2016-10-31T10:00:00",
+          "text": "Battery life claim matches what I'm seeing too."
+        }
+      ],
+      "imageCaption": "The two earbud cases used in the comparison test.",
+      "imageCredit": "Staff photo",
+      "premium": false,
+      "linksOfInterest": [
+        {
+          "label": "Apple Retina iMac pictures",
+          "href": "/reviews/apple-retina-imac-pictures"
+        },
+        {
+          "label": "Every review we've published this year",
+          "href": "/reviews"
+        }
+      ]
+    }
+  ]
+}

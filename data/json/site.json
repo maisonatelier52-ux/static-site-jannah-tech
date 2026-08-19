@@ -1,0 +1,140 @@
+{
+  "name": "Jannah Technology",
+  "tagline": "Just another TieLabs Themes Sites site",
+  "logo": "/images/logo/site-logo.svg",
+  "mainNav": [
+    { "label": "Home", "href": "/" },
+    { "label": "Tech", "href": "/tech" },
+    { "label": "Science", "href": "/science" },
+    { "label": "Apps", "href": "/apps" },
+    { "label": "Cars", "href": "/cars" },
+    {
+      "label": "Reviews",
+      "href": "/reviews",
+      "children": [
+        { "label": "Tablets", "href": "/tablets" },
+        { "label": "Laptops", "href": "/laptops" },
+        { "label": "Phones", "href": "/phones" },
+        { "label": "Cameras", "href": "/cameras" },
+        { "label": "Headphones", "href": "/headphones" }
+      ]
+    }
+  ],
+  "footerNav": {
+    "mustRead": [
+      { "label": "Terms of Use", "href": "/terms-of-use" },
+      { "label": "Contribute", "href": "/contribute" },
+      { "label": "Advertise", "href": "/advertise" },
+      { "label": "Team", "href": "/team" },
+      { "label": "About", "href": "/about" }
+    ],
+    "importantLinks": [
+      { "label": "Community Guidelines", "href": "/community-guidelines" },
+      { "label": "Communications Preferences", "href": "/communications-preferences" },
+      { "label": "Privacy Policy", "href": "/privacy-policy" },
+      { "label": "Terms of Use", "href": "/terms-of-use" },
+      { "label": "Contribute", "href": "/contribute" }
+    ],
+    "quickLinks": [
+      { "label": "Home", "href": "/" },
+      { "label": "About", "href": "/about" },
+      { "label": "Team", "href": "/team" },
+      { "label": "Contribute", "href": "/contribute" },
+      { "label": "Advertise", "href": "/advertise" }
+    ]
+  },
+  "socials": [
+    { "label": "Facebook", "href": "https://facebook.com/", "icon": "facebook" },
+    { "label": "X", "href": "https://twitter.com/", "icon": "x" },
+    { "label": "Dribbble", "href": "https://dribbble.com/", "icon": "dribbble" },
+    { "label": "LinkedIn", "href": "https://linkedin.com/", "icon": "linkedin" },
+    { "label": "YouTube", "href": "https://youtube.com/", "icon": "youtube" },
+    { "label": "Google Play", "href": "#", "icon": "googleplay" },
+    { "label": "App Store", "href": "#", "icon": "appstore" }
+  ],
+  "followStats": [
+    { "label": "Fans", "value": "1.3M", "icon": "facebook" },
+    { "label": "Followers", "value": "1,300", "icon": "x" },
+    { "label": "Subscribers", "value": "0", "icon": "youtube" },
+    { "label": "Subscribers", "value": "1,467", "icon": "vimeo" },
+    { "label": "Followers", "value": "4,561", "icon": "instagram" }
+  ],
+  "popularCompanies": [
+    { "label": "Amazon", "href": "https://www.amazon.com/" },
+    { "label": "eBay", "href": "https://ebay.com/" },
+    { "label": "Facebook", "href": "https://facebook.com/" },
+    { "label": "Google", "href": "https://google.com/" },
+    { "label": "Yahoo", "href": "https://yahoo.com/" }
+  ],
+  "otherWebsites": {
+    "title": "Other Websites of Jannah Technology",
+    "columns": [
+      {
+        "title": "The World",
+        "links": [
+          { "label": "The World in Orbyt", "href": "#" },
+          { "label": "Check Christmas Lottery 2026", "href": "#" },
+          { "label": "TV Guide", "href": "#" },
+          { "label": "World Travel", "href": "#" },
+          { "label": "Latest news", "href": "#" }
+        ]
+      },
+      {
+        "title": "Leisure and Health",
+        "links": [
+          { "label": "Telva", "href": "#" },
+          { "label": "My baby and I", "href": "#" },
+          { "label": "Take care of yourself Plus", "href": "#" },
+          { "label": "Medical Journal", "href": "#" }
+        ]
+      },
+      {
+        "title": "Editorial Unit",
+        "links": [
+          { "label": "Expansion", "href": "#" },
+          { "label": "BRAND", "href": "#" },
+          { "label": "BRAND English", "href": "#" },
+          { "label": "Gaming Brand", "href": "#" },
+          { "label": "Frogs and Princesses", "href": "#" },
+          { "label": "Currency converter", "href": "#" }
+        ]
+      },
+      {
+        "title": "Employment",
+        "links": [
+          { "label": "Editorial Unit School", "href": "#" },
+          { "label": "Editorial Unit", "href": "#" }
+        ]
+      }
+    ]
+  },
+  "legal": {
+    "address": "Jannah Technology Information General, SLU Avda San Luis 25 - 28033 Madrid",
+    "disclaimer": "In accordance with the provisions of Article 67.3 of Royal Decree-Law 24/2021, of November 2, the reproduction and use of the works and other services available on this website by means of text and data mining techniques, or other automated information extraction procedures, is expressly reserved in favor of Jannah Technology Information General, SLU",
+    "bottomLinks": [
+      { "label": "Cookies policy", "href": "#" },
+      { "label": "Cookie settings", "href": "#" },
+      { "label": "Privacy Policy", "href": "/privacy-policy" },
+      { "label": "Data mining policy", "href": "#" },
+      { "label": "Transparency section", "href": "#" },
+      { "label": "Terms and conditions of use", "href": "/terms-of-use" },
+      { "label": "Content sales", "href": "#" },
+      { "label": "Advertising", "href": "/advertise" },
+      { "label": "Certified by OJD", "href": "#" },
+      { "label": "Contact", "href": "#" }
+    ]
+  },
+  "tagCloud": ["cameras", "gallery", "headphone", "laptop", "phones", "science", "sound", "tech", "video"],
+  "copyright": "© Copyright 2026, Jannah Technology. All Rights Reserved",
+  "newsletter": {
+    "eyebrow": "With Product You Purchase",
+    "title": "Subscribe to our mailing list to get the new updates!",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  "adBanner": {
+    "sidebarImage": "/images/ads/sidebar-ad.jpg",
+    "sidebarLink": "#",
+    "leaderboardImage": "/images/ads/leaderboard-ad.jpg",
+    "leaderboardLink": "#"
+  }
+}

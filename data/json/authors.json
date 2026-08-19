@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "admin",
+    "name": "Tony Stark",
+    "avatar": "/images/authors/tony-stark.jpg",
+    "bio": "Creator. Passionate tv fan. Introvert. Problem solver. Travel ninja. Music practitioner. Thinker.",
+    "role": "Senior Editor",
+    "postCount": 18,
+    "socials": [
+      { "label": "Facebook", "href": "https://facebook.com/tielabs", "icon": "facebook" },
+      { "label": "X", "href": "https://twitter.com/tielabs", "icon": "x" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/", "icon": "linkedin" },
+      { "label": "Flickr", "href": "https://flickr.com/", "icon": "flickr" },
+      { "label": "YouTube", "href": "https://youtube.com/", "icon": "youtube" },
+      { "label": "Pinterest", "href": "https://pinterest.com/tielabs", "icon": "pinterest" },
+      { "label": "Behance", "href": "https://behance.net/tielabs", "icon": "behance" },
+      { "label": "Instagram", "href": "https://instagram.com/tielabs", "icon": "instagram" }
+    ]
+  },
+  {
+    "slug": "ashraf",
+    "name": "Danny Rand",
+    "avatar": "/images/authors/danny-rand.jpg",
+    "bio": "Tech writer covering laptops, cameras and everything in between. Coffee-powered.",
+    "role": "Staff Writer",
+    "postCount": 11,
+    "socials": [
+      { "label": "Facebook", "href": "https://facebook.com/", "icon": "facebook" },
+      { "label": "X", "href": "https://twitter.com/", "icon": "x" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/", "icon": "linkedin" }
+    ]
+  }
+]

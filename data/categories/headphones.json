@@ -1,0 +1,185 @@
+{
+  "articles": [
+    {
+      "slug": "sync-by-50-wireless-headphones-review",
+      "title": "Sync by 50 wireless headphones review",
+      "subtitle": "Solid sound, questionable app",
+      "excerpt": "Apple Watch review: Design. For a slightly more opinionated version of the video review above, here's the male half of the team...",
+      "category": "headphones",
+      "tags": [
+        "headphone",
+        "sound"
+      ],
+      "author": "admin",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "6 minutes read",
+      "views": 22703,
+      "comments": 0,
+      "rating": {
+        "type": "percent",
+        "value": 88
+      },
+      "featured": true,
+      "trending": true,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Wireless headphones have come a long way, and the Sync by 50 line is a solid mid-tier entry with punchy bass and a comfortable over-ear fit."
+        },
+        {
+          "type": "image",
+          "src": "/images/posts/sync-by-50-detail.jpg",
+          "alt": "Sync by 50 headphones on a table"
+        },
+        {
+          "type": "heading",
+          "text": "Sound quality"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bass-forward tuning dominates, which suits hip-hop and EDM listeners well, though it can feel a touch overwhelming for acoustic tracks."
+        },
+        {
+          "type": "heading",
+          "text": "Companion app"
+        },
+        {
+          "type": "paragraph",
+          "text": "The companion app is functional but clunky, with an EQ panel that resets more often than it should. Firmware updates have been inconsistent."
+        },
+        {
+          "type": "quote",
+          "text": "Great for the gym, less great for critical listening."
+        },
+        {
+          "type": "paragraph",
+          "text": "Battery life easily clears a full day of commuting and workouts, and the case doubles as a decent power bank in a pinch."
+        }
+      ],
+      "updatedAt": "2016-12-11T08:21:00",
+      "commentsList": []
+    },
+    {
+      "slug": "battle-of-the-portable-planar-magnetic-headphones",
+      "title": "Battle of the portable planar magnetic headphones",
+      "subtitle": "Two contenders, one clear winner",
+      "excerpt": "Apple Watch review: Design. For a slightly more opinionated version of the video review above, here's the male half of the team...",
+      "category": "headphones",
+      "tags": [
+        "headphone",
+        "sound"
+      ],
+      "author": "admin",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "8 minutes read",
+      "views": 5104,
+      "comments": 0,
+      "rating": {
+        "type": "score",
+        "value": "7.7"
+      },
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Planar magnetic drivers used to mean bulky over-ear cans tethered to a desktop amp. Not anymore — two portable contenders go head to head."
+        },
+        {
+          "type": "image",
+          "src": "/images/posts/planar-headphones-detail.jpg",
+          "alt": "Two planar magnetic headphones side by side"
+        },
+        {
+          "type": "paragraph",
+          "text": "Both pairs deliver the signature planar clarity, but differ meaningfully in comfort during long sessions and in how forgiving they are of poorly mastered tracks."
+        }
+      ],
+      "updatedAt": "2016-12-11T20:50:00",
+      "commentsList": []
+    },
+    {
+      "slug": "bragi-headphone-review-finally-wireless-earbuds-worth-buying",
+      "title": "Bragi Headphone review: finally, wireless earbuds worth buying",
+      "subtitle": "The true wireless category grows up",
+      "excerpt": "Apple Watch review: Design. For a slightly more opinionated version of the video review above, here's the male half of the team...",
+      "category": "headphones",
+      "tags": [
+        "headphone",
+        "sound"
+      ],
+      "author": "admin",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "6 minutes read",
+      "views": 6210,
+      "comments": 0,
+      "rating": {
+        "type": "percent",
+        "value": 79
+      },
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Early true wireless earbuds were a mixed bag — dropouts, poor fit, and battery life measured in minutes. Bragi's latest pair finally addresses most of that."
+        },
+        {
+          "type": "paragraph",
+          "text": "Connection stability is the headline improvement here, with barely a hiccup across several days of daily commuting and gym use."
+        }
+      ],
+      "updatedAt": "2016-12-11T14:30:00",
+      "commentsList": []
+    },
+    {
+      "slug": "akg-n60nc-headphones-review-converting-the-non-believers",
+      "title": "AKG N60NC headphones review: converting the non-believers",
+      "subtitle": "Compact ANC done right",
+      "excerpt": "Apple Watch review: Design. For a slightly more opinionated version of the video review above, here's the male half of the team...",
+      "category": "headphones",
+      "tags": [
+        "headphone"
+      ],
+      "author": "admin",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "5 minutes read",
+      "views": 4310,
+      "comments": 0,
+      "rating": {
+        "type": "percent",
+        "value": 83
+      },
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "AKG's foldable N60NC squeezes genuinely effective active noise cancellation into a travel-friendly form factor, at a price that undercuts most rivals."
+        }
+      ],
+      "updatedAt": "2016-12-11T11:12:00",
+      "commentsList": []
+    }
+  ]
+}

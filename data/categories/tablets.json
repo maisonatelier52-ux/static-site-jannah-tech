@@ -1,0 +1,400 @@
+{
+  "articles": [
+    {
+      "slug": "refurbished-tablets-are-having-a-moment",
+      "title": "Refurbished tablets are having a moment, and retailers are noticing",
+      "subtitle": "Certified refurb programs are getting more prominent shelf space",
+      "excerpt": "Certified refurbished tablets are seeing a sales bump as buyers look for a middle ground between new prices and uncertain secondhand listings.",
+      "category": "tablets",
+      "tags": [
+        "tablets"
+      ],
+      "author": "ashraf",
+      "date": "2025-12-02",
+      "year": "2025",
+      "month": "12",
+      "day": "02",
+      "image": "/images/posts/pay-for-power.jpg",
+      "readingTime": "4 minutes read",
+      "views": 2980,
+      "comments": 1,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Certified refurbished programs used to be a niche corner of a retailer's site. Several major sellers now report refurbished tablets are among their fastest-growing categories by unit volume."
+        },
+        {
+          "type": "heading",
+          "id": "why-now",
+          "text": "Why now"
+        },
+        {
+          "type": "paragraph",
+          "text": "Buyers increasingly cite battery health guarantees and standardized grading as the deciding factor over cheaper, ungraded secondhand listings from individual sellers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Retailers say return rates on certified refurbished units are now close to those of new devices, a gap that was much wider just a few years ago."
+        }
+      ],
+      "updatedAt": "2025-12-02T06:20:00",
+      "commentsList": []
+    },
+    {
+      "slug": "the-kids-tablet-market-is-more-competitive-than-it-looks",
+      "title": "The kids-mode tablet market is more competitive than it looks",
+      "subtitle": "A crowded shelf of near-identical devices is hiding real differences",
+      "excerpt": "At a glance, most kids tablets look interchangeable. A closer look at parental controls and content filtering shows real gaps between them.",
+      "category": "tablets",
+      "tags": [
+        "tablets"
+      ],
+      "author": "admin",
+      "date": "2025-08-19",
+      "year": "2025",
+      "month": "08",
+      "day": "19",
+      "image": "/images/posts/default-cover.jpg",
+      "readingTime": "5 minutes read",
+      "views": 3670,
+      "comments": 2,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "At a glance, most kids tablets look interchangeable: a bright case, a simplified interface, and a marketing claim about screen time limits. A closer look at how parental controls actually work shows real differences."
+        },
+        {
+          "type": "heading",
+          "id": "what-to-check",
+          "text": "What actually differs between them"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Whether content filtering happens on-device or requires a constant connection",
+            "How granular screen-time scheduling actually is",
+            "Whether app purchases can be fully blocked, not just flagged"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Several models marketed specifically for younger children still allow access to the full app store behind a PIN that's trivial for an elementary-age kid to guess."
+        }
+      ],
+      "updatedAt": "2025-08-19T06:20:00",
+      "commentsList": []
+    },
+    {
+      "slug": "why-artists-still-prefer-cheap-tablets",
+      "title": "Why some artists still prefer a $50 tablet over a $1,000 one",
+      "subtitle": "Pressure sensitivity isn't the only thing that matters at the easel",
+      "excerpt": "Professional illustrators explain why a budget drawing tablet sometimes beats a flagship device for their actual workflow.",
+      "category": "tablets",
+      "tags": [
+        "tablets"
+      ],
+      "author": "admin",
+      "date": "2025-04-16",
+      "year": "2025",
+      "month": "04",
+      "day": "16",
+      "image": "/images/posts/sync-by-50.jpg",
+      "readingTime": "5 minutes read",
+      "views": 5340,
+      "comments": 4,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "It would be easy to assume every professional illustrator reaches for the most expensive tablet available. In practice, several told us they keep a sub-$50 drawing tablet in rotation for specific parts of their workflow."
+        },
+        {
+          "type": "heading",
+          "id": "the-case-for-cheap",
+          "text": "The case for the cheap one"
+        },
+        {
+          "type": "paragraph",
+          "text": "A dedicated, screen-less drawing tablet paired with a large monitor avoids the parallax and glare issues that come with drawing directly on a glass display, at a fraction of the cost."
+        },
+        {
+          "type": "paragraph",
+          "text": "For rough sketching and thumbnails specifically, several artists said the lack of a screen actually helped them avoid over-polishing early drafts."
+        }
+      ],
+      "updatedAt": "2025-04-16T06:20:00",
+      "commentsList": []
+    },
+    {
+      "slug": "stylus-latency-finally-got-good-enough",
+      "title": "Stylus latency finally got good enough to stop noticing",
+      "subtitle": "The lag that used to make handwriting feel artificial is mostly gone",
+      "excerpt": "For years, stylus input on tablets had just enough lag to feel slightly artificial. The newest generation has largely closed that gap.",
+      "category": "tablets",
+      "tags": [
+        "tablets"
+      ],
+      "author": "ashraf",
+      "date": "2025-02-27",
+      "year": "2025",
+      "month": "02",
+      "day": "27",
+      "image": "/images/posts/macbook-pro.jpg",
+      "readingTime": "4 minutes read",
+      "views": 4110,
+      "comments": 3,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Earlier tablet styluses had just enough input lag to feel slightly artificial, especially for handwriting, where your eye expects the ink to appear the instant the tip touches down."
+        },
+        {
+          "type": "heading",
+          "id": "the-numbers",
+          "text": "The numbers behind the feel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reported latency on the newest displays has dropped to roughly a third of what flagship tablets shipped with five years ago, a gap most users reported as no longer noticeable in side-by-side testing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note-taking app developers say the improvement has meaningfully changed how comfortable long handwritten sessions feel, particularly for users switching from paper."
+        }
+      ],
+      "updatedAt": "2025-02-27T06:20:00",
+      "commentsList": []
+    },
+    {
+      "slug": "the-budget-tablet-that-punches-above-its-price",
+      "title": "The budget tablet that punches above its price",
+      "subtitle": "Good enough for most people, and then some",
+      "excerpt": "Not everyone needs a thousand-dollar slab of glass. This midrange tablet proves the budget tier has quietly gotten a lot better.",
+      "category": "tablets",
+      "tags": [
+        "tablets",
+        "tech"
+      ],
+      "author": "admin",
+      "date": "2024-12-26",
+      "year": "2024",
+      "month": "12",
+      "day": "26",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "5 minutes read",
+      "views": 19989,
+      "comments": 2,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "overview",
+          "label": "Overview"
+        },
+        {
+          "id": "details",
+          "label": "The details"
+        },
+        {
+          "id": "verdict",
+          "label": "Our take"
+        }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "overview",
+          "text": "Overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "Not everyone needs a thousand-dollar slab of glass. This midrange tablet proves the budget tier has quietly gotten a lot better."
+        },
+        {
+          "type": "heading",
+          "id": "details",
+          "text": "The details"
+        },
+        {
+          "type": "paragraph",
+          "text": "Good enough for most people, and then some. Not everyone needs a thousand-dollar slab of glass. This midrange tablet proves the budget tier has quietly gotten a lot better."
+        },
+        {
+          "type": "heading",
+          "id": "verdict",
+          "text": "Our take"
+        },
+        {
+          "type": "paragraph",
+          "text": "It's an encouraging sign for where the category is headed next, even if not every question has been answered yet."
+        }
+      ],
+      "updatedAt": "2024-12-26T20:45:00",
+      "commentsList": [
+        {
+          "id": "the-budget-tablet-that-punches-above-its-price-c1",
+          "name": "Ben C.",
+          "date": "2024-12-26T05:00:00",
+          "text": "Fair review. Still on the fence but this answered most of my open questions."
+        },
+        {
+          "id": "the-budget-tablet-that-punches-above-its-price-c2",
+          "name": "Daniel O.",
+          "date": "2024-12-26T14:00:00",
+          "text": "Appreciate that this didn't just repeat the marketing angle. Feels like an actual test."
+        }
+      ]
+    },
+    {
+      "slug": "is-the-tablet-finally-replacing-the-laptop-for-students",
+      "title": "Is the tablet finally replacing the laptop for students",
+      "subtitle": "A semester-long experiment says almost",
+      "excerpt": "We tracked how a group of college students used tablets as their primary computer for a full term, and the results were mixed but promising.",
+      "category": "tablets",
+      "tags": [
+        "tablets",
+        "tech"
+      ],
+      "author": "ashraf",
+      "date": "2024-09-16",
+      "year": "2024",
+      "month": "09",
+      "day": "16",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "5 minutes read",
+      "views": 18853,
+      "comments": 16,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "overview",
+          "label": "Overview"
+        },
+        {
+          "id": "details",
+          "label": "The details"
+        },
+        {
+          "id": "verdict",
+          "label": "Our take"
+        }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "overview",
+          "text": "Overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "We tracked how a group of college students used tablets as their primary computer for a full term, and the results were mixed but promising."
+        },
+        {
+          "type": "heading",
+          "id": "the-details",
+          "text": "The details"
+        },
+        {
+          "type": "paragraph",
+          "text": "A semester-long experiment says almost. We tracked how a group of college students used tablets as their primary computer for a full term, and by the end, 70% said they didn't miss a laptop for note-taking or reading.",
+          "bold": [
+            "70% said they didn't miss a laptop"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The friction point was consistent across the group: spreadsheet-heavy coursework and long-form writing assignments over roughly 2,000 words were where a physical keyboard and multi-window support were still missed most.",
+          "bold": [
+            "roughly 2,000 words"
+          ]
+        },
+        {
+          "type": "heading",
+          "id": "what-helped",
+          "text": "What helped"
+        },
+        {
+          "type": "list",
+          "items": [
+            "A keyboard case used for more than half of all sessions",
+            "Split-screen note-taking during lectures",
+            "Cloud storage syncing automatically across a phone and tablet"
+          ]
+        },
+        {
+          "type": "heading",
+          "id": "our-take",
+          "text": "Our take"
+        },
+        {
+          "type": "paragraph",
+          "text": "It's an encouraging sign for where the category is headed next, even if not every question has been answered yet — heavier coursework like video editing or coding classes wasn't part of this particular group."
+        }
+      ],
+      "updatedAt": "2024-09-16T19:02:00",
+      "commentsList": [
+        {
+          "id": "is-the-tablet-finally-replacing-the-laptop-for-students-c1",
+          "name": "Amara N.",
+          "date": "2024-09-16T05:00:00",
+          "text": "This matches what I've seen too — took a few weeks before it really clicked for me."
+        },
+        {
+          "id": "is-the-tablet-finally-replacing-the-laptop-for-students-c2",
+          "name": "Owen P.",
+          "date": "2024-09-16T14:00:00",
+          "text": "Curious how this holds up after a year rather than a few months. Any plans for a follow-up?"
+        },
+        {
+          "id": "is-the-tablet-finally-replacing-the-laptop-for-students-c3",
+          "name": "Tomasz W.",
+          "date": "2024-09-16T23:00:00",
+          "text": "Honestly wasn't expecting this to be as solid as it is. Glad I read the whole thing before deciding."
+        },
+        {
+          "id": "is-the-tablet-finally-replacing-the-laptop-for-students-c4",
+          "name": "Fatima Z.",
+          "date": "2024-09-17T08:00:00",
+          "text": "The comparison to the previous generation is what sold me. Appreciate the specifics instead of vague praise."
+        },
+        {
+          "id": "is-the-tablet-finally-replacing-the-laptop-for-students-c5",
+          "name": "Ingrid B.",
+          "date": "2024-09-17T17:00:00",
+          "text": "Disagree a bit on the middle section, but the overall conclusion tracks with my own experience."
+        }
+      ],
+      "imageCaption": "A student's tablet setup during exam season.",
+      "imageCredit": "Staff photo",
+      "premium": false,
+      "linksOfInterest": [
+        {
+          "label": "The budget tablet that punches above its price",
+          "href": "/tablets/the-budget-tablet-that-punches-above-its-price"
+        },
+        {
+          "label": "Long-term review: six months with a folding phone",
+          "href": "/reviews/long-term-review-six-months-with-a-folding-phone"
+        }
+      ]
+    }
+  ]
+}

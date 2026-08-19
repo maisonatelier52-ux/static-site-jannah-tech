@@ -1,0 +1,212 @@
+{
+  "articles": [
+    {
+      "slug": "why-phone-cameras-stopped-chasing-megapixels",
+      "title": "Why phone cameras stopped chasing megapixels",
+      "subtitle": "The industry quietly changed its priorities",
+      "excerpt": "After years of megapixel wars, phone makers are now competing on computational processing and sensor size instead.",
+      "category": "phones",
+      "tags": [
+        "phones",
+        "tech"
+      ],
+      "author": "ashraf",
+      "date": "2023-10-24",
+      "year": "2023",
+      "month": "10",
+      "day": "24",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "8 minutes read",
+      "views": 37510,
+      "comments": 8,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [
+        {
+          "id": "overview",
+          "label": "Overview"
+        },
+        {
+          "id": "details",
+          "label": "The details"
+        },
+        {
+          "id": "verdict",
+          "label": "Our take"
+        }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "id": "overview",
+          "text": "Overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "After years of megapixel wars, phone makers are now competing on computational processing and sensor size instead."
+        },
+        {
+          "type": "heading",
+          "id": "details",
+          "text": "The details"
+        },
+        {
+          "type": "paragraph",
+          "text": "The industry quietly changed its priorities. After years of megapixel wars, phone makers are now competing on computational processing and sensor size instead."
+        },
+        {
+          "type": "heading",
+          "id": "verdict",
+          "text": "Our take"
+        },
+        {
+          "type": "paragraph",
+          "text": "It's an encouraging sign for where the category is headed next, even if not every question has been answered yet."
+        }
+      ],
+      "updatedAt": "2023-10-24T16:10:00",
+      "commentsList": [
+        {
+          "id": "why-phone-cameras-stopped-chasing-megapixels-c1",
+          "name": "Sofia R.",
+          "date": "2023-10-24T06:00:00",
+          "text": "Wish more outlets covered the downsides this clearly instead of burying them at the end."
+        },
+        {
+          "id": "why-phone-cameras-stopped-chasing-megapixels-c2",
+          "name": "Carlos M.",
+          "date": "2023-10-24T15:00:00",
+          "text": "Saved this to send to a few people who keep asking me about it. Exactly the breakdown I needed."
+        },
+        {
+          "id": "why-phone-cameras-stopped-chasing-megapixels-c3",
+          "name": "Jae-won L.",
+          "date": "2023-10-25T00:00:00",
+          "text": "The numbers here are more useful than most of what I've seen written about this so far."
+        },
+        {
+          "id": "why-phone-cameras-stopped-chasing-megapixels-c4",
+          "name": "Yuki S.",
+          "date": "2023-10-25T09:00:00",
+          "text": "Fair review. Still on the fence but this answered most of my open questions."
+        },
+        {
+          "id": "why-phone-cameras-stopped-chasing-megapixels-c5",
+          "name": "Marcus T.",
+          "date": "2023-10-25T18:00:00",
+          "text": "Appreciate that this didn't just repeat the marketing angle. Feels like an actual test."
+        }
+      ]
+    },
+    {
+      "slug": "the-moto-z-play-has-the-best-battery-life",
+      "title": "The Moto Z Play has the best battery life",
+      "subtitle": "Two days on a single charge, easily",
+      "excerpt": "Apple Watch review: Design. For a slightly more opinionated version of the video review above, here's the male half of the team...",
+      "category": "phones",
+      "tags": [
+        "phones",
+        "tech"
+      ],
+      "author": "ashraf",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "5 minutes read",
+      "views": 4021,
+      "comments": 0,
+      "rating": {
+        "type": "percent",
+        "value": 75
+      },
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "While flagship phones chase thinner bodies, the Moto Z Play goes the other way — a bigger battery in a slightly thicker shell, and the runtime shows it."
+        },
+        {
+          "type": "paragraph",
+          "text": "In our mixed-use test cycle, the phone comfortably lasted a full two days before needing a charge, well ahead of most competitors in its class."
+        }
+      ],
+      "updatedAt": "2016-12-11T18:20:00",
+      "commentsList": []
+    },
+    {
+      "slug": "lg-v20-review-lots-of-features-less-refinement",
+      "title": "LG V20 review: lots of features, less refinement",
+      "subtitle": "A spec sheet that outshines the experience",
+      "excerpt": "Apple Watch review: Design. For a slightly more opinionated version of the video review above, here's the male half of the team...",
+      "category": "phones",
+      "tags": [
+        "phones",
+        "tech"
+      ],
+      "author": "ashraf",
+      "date": "2016-12-11",
+      "year": "2016",
+      "month": "12",
+      "day": "11",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "7 minutes read",
+      "views": 3980,
+      "comments": 0,
+      "rating": {
+        "type": "score",
+        "value": "8.8"
+      },
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The V20 packs a secondary display, a removable battery and a genuinely excellent DAC for audio — on paper, a spec-sheet darling."
+        },
+        {
+          "type": "paragraph",
+          "text": "In daily use, though, the software doesn't always keep pace with the hardware ambition, and the secondary screen feels underused."
+        }
+      ],
+      "updatedAt": "2016-12-11T10:54:00",
+      "commentsList": []
+    },
+    {
+      "slug": "galaxy-s7-lineup-with-new-jet-black-color",
+      "title": "Galaxy S7 lineup with new Jet Black color",
+      "subtitle": "A glossy finish that divides opinion",
+      "excerpt": "Apple Watch review: Design. For a slightly more opinionated version of the video review above, here's the male half of the team...",
+      "category": "phones",
+      "tags": [
+        "phones"
+      ],
+      "author": "admin",
+      "date": "2016-12-08",
+      "year": "2016",
+      "month": "12",
+      "day": "08",
+      "image": "/images/posts/uber-flying-car.jpg",
+      "readingTime": "3 minutes read",
+      "views": 2760,
+      "comments": 0,
+      "rating": null,
+      "featured": false,
+      "trending": false,
+      "toc": [],
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The new Jet Black finish adds a glossy, fingerprint-prone option to the Galaxy S7 lineup, aimed at buyers who prioritize looks over practicality."
+        }
+      ],
+      "updatedAt": "2016-12-08T18:22:00",
+      "commentsList": []
+    }
+  ]
+}
