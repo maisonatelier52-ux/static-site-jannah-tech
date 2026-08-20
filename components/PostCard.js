@@ -253,8 +253,12 @@ export default function PostCard({
   }
 
   // 'hero' default
+  // `h-full` + the text block below using `flex flex-col flex-1` lets this
+  // card match the height of a taller sibling column (e.g. the 3 stacked
+  // horizontal cards in CategorySection) without stretching the image —
+  // the excerpt/meta area grows instead, closing the empty-space gap.
   return (
-    <article className="group flex flex-col">
+    <article className="group h-full flex flex-col">
       <Link href={url} className="relative block w-full aspect-[16/10] overflow-hidden bg-gray-100">
         <Image
           src={post.image}
@@ -269,16 +273,16 @@ export default function PostCard({
           </span>
         )}
       </Link>
-      <div className="pt-3">
-        <h3 className="text-[clamp(1.05rem,0.6vw+0.9rem,1.3rem)] font-serif font-bold leading-[1.2] text-ink">
+      <div className="pt-3 sm:pt-4 flex flex-col flex-1">
+        <h3 className="text-[clamp(1.15rem,0.9vw+0.95rem,1.55rem)] font-serif font-bold leading-[1.25] text-ink">
           <Link href={url} className="hover:opacity-80 transition-opacity">
-            <CategoryBadge slug={post.category} asLink={false} />
+            <CategoryBadge slug={post.category} asLink={false} size="lg" />
             {' '}
             {post.title}
           </Link>
         </h3>
-        <p className="mt-2 text-sm font-serif text-[#3a3a3a] line-clamp-2">{post.excerpt}</p>
-        <p className="mt-2.5 text-[11px] font-serif uppercase tracking-wide text-[#595959]">
+        <p className="mt-2.5 text-[15px] sm:text-base font-serif text-[#3a3a3a] leading-relaxed line-clamp-3">{post.excerpt}</p>
+        <p className="mt-auto pt-2.5 text-xs font-serif uppercase tracking-wide text-[#595959]">
           {getAuthorBySlug(post.author)?.name}
           {getAuthorBySlug(post.author) && ' · '}
           {formatDate(post.date)}

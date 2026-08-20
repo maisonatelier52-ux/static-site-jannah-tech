@@ -20,11 +20,11 @@ import { getAllPosts, getAuthorBySlug, getCategoryBySlug, getPostUrl } from '@/l
 export default function TrendingGrid({ excludeSlugs = [] }) {
   const exclude = new Set(excludeSlugs);
   const pool = getAllPosts().filter((p) => !exclude.has(p.slug));
-  if (pool.length < 6) return null;
+  if (pool.length < 7) return null;
 
   const [
     leftA, leftB, leftC,
-    center,
+    center, centerB,
     rightB, rightC,
   ] = pool;
 
@@ -57,7 +57,12 @@ export default function TrendingGrid({ excludeSlugs = [] }) {
         </div>
       </div>
 
-      {/* Center column — the large image-led feature, shown first on mobile */}
+      {/* Center column — the large image-led feature, shown first on mobile,
+          plus one more text-only story below it (mirroring the left/right
+          columns' 3-story stacks). This is genuine extra content — not a
+          stretched image or inflated type — so the column's height now
+          comes from having as much real material as its neighbors,
+          closing the empty space below the feature story naturally. */}
       <div className="order-1 lg:order-2 lg:px-8 lg:border-l lg:border-[#808080]/40">
         <TrendingStoryItem
           {...(() => {
@@ -80,6 +85,11 @@ export default function TrendingGrid({ excludeSlugs = [] }) {
             };
           })()}
         />
+        {centerB && (
+          <div className="mt-6 pt-6 border-t border-[#808080]/40">
+            <TrendingStoryItem {...storyProps(centerB, { bullet: true })} />
+          </div>
+        )}
       </div>
 
       {/* Right column — 3rd on both mobile and desktop */}
@@ -91,7 +101,7 @@ export default function TrendingGrid({ excludeSlugs = [] }) {
               href: getPostUrl(rightB),
               kicker: rightB.subtitle || rightB.title,
               kickerQuoted: true,
-              headline: rightB.excerpt,
+              headline: rightB.title,
               byline: author ? author.name.toUpperCase() : '',
               comments: rightB.comments,
             };

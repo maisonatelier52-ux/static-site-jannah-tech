@@ -32,7 +32,7 @@ export default function HomePage() {
   const usedSlugs = () => Array.from(used);
 
   const trendingExclude = usedSlugs();
-  const trending = take(getAllPosts().filter((p) => !used.has(p.slug)).slice(0, 6));
+  const trending = take(getAllPosts().filter((p) => !used.has(p.slug)).slice(0, 7));
 
   const mustReadExclude = usedSlugs();
   const mustRead = take(getAllPosts().filter((p) => !used.has(p.slug)).slice(0, 6));
