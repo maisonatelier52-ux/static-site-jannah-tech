@@ -52,9 +52,7 @@ export default function Footer() {
 
           {/* Third-party brand mark placeholder — replace with the real partner logo image */}
           <div className="sm:w-24 flex sm:justify-start justify-center">
-            <span className="text-[10px] font-sans font-bold text-gray-400 border border-gray-300 rounded px-2 py-1">
-              Partner logo
-            </span>
+
           </div>
 
           {/* Centered wordmark + address */}

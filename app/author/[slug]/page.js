@@ -5,7 +5,14 @@ import {
   getPostsByAuthor,
   getTrendingPosts,
 } from '@/lib/data';
+import {
+  getAuthorMetadata,
+  getAuthorJsonLd,
+  getBreadcrumbJsonLd,
+  getAuthorBreadcrumbItems,
+} from '@/lib/seo';
 
+import Breadcrumb from '@/components/Breadcrumb';
 import AuthorProfileHeader from './_components/AuthorProfileHeader';
 import AuthorArticleList from './_components/AuthorArticleList';
 import AuthorMostReadSidebar from './_components/AuthorMostReadSidebar';
@@ -18,10 +25,7 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const author = getAuthorBySlug(slug);
   if (!author) return {};
-  return {
-    title: author.name,
-    description: author.bio,
-  };
+  return getAuthorMetadata(author);
 }
 
 export default async function AuthorPage({ params }) {
@@ -37,9 +41,28 @@ export default async function AuthorPage({ params }) {
   const mostRead = [...posts].sort((a, b) => b.views - a.views).slice(0, 5);
   const trending = getTrendingPosts(5, posts.map((p) => p.slug));
 
+  const authorJsonLd = getAuthorJsonLd(author);
+  const breadcrumbItems = getAuthorBreadcrumbItems(author);
+  const breadcrumbJsonLd = getBreadcrumbJsonLd(breadcrumbItems);
+
   return (
     <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10 py-6 pb-10">
-      <AuthorProfileHeader author={author} posts={posts} />
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(authorJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+
+      <Breadcrumb items={breadcrumbItems} />
+
+      <div className="mt-4">
+        <AuthorProfileHeader author={author} posts={posts} />
+      </div>
 
       <div className="mt-8 flex flex-col lg:flex-row lg:items-start gap-x-10 gap-y-10">
         <div className="min-w-0 flex-1">

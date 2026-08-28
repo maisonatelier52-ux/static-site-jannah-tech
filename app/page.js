@@ -5,7 +5,6 @@ import FollowUsWidget from '@/components/FollowUsWidget';
 import LastModifiedWidget from '@/components/LastModifiedWidget';
 import PopularWidget from '@/components/PopularWidget';
 import AdBox from '@/components/AdBox';
-import VideoWidget from '@/components/VideoWidget';
 import CategoryTabWidget from '@/components/CategoryTabWidget';
 import CategorySection from '@/components/CategorySection';
 import OpinionStrip from '@/components/OpinionStrip';
@@ -42,8 +41,8 @@ export default function HomePage() {
 
   const recentForSidebar = getRecentPosts(6, null, usedSlugs());
 
-  const appsExclude = usedSlugs();
-  const appsTab = take(getPostsByCategory('apps', appsExclude).slice(0, 4));
+  const businessExclude = usedSlugs();
+  const businessTab = take(getPostsByCategory('business', businessExclude).slice(0, 4));
 
   const headphonesExclude = usedSlugs();
   const headphonesTab = take(getPostsByCategory('headphones', []).slice(0, 4));
@@ -51,11 +50,11 @@ export default function HomePage() {
   const reviewsExclude = usedSlugs();
   const reviewsSection = take(getPostsByCategory('reviews', reviewsExclude).slice(0, 4));
 
-  const carsExclude = usedSlugs();
-  const carsPosts = take(getPostsByCategory('cars', carsExclude).slice(0, 2));
+  const financeExclude = usedSlugs();
+  const financePosts = take(getPostsByCategory('finance', financeExclude).slice(0, 2));
 
-  const scienceExclude = usedSlugs();
-  const scienceSection = take(getPostsByCategory('science', scienceExclude).slice(0, 5));
+  const worldExclude = usedSlugs();
+  const worldSection = take(getPostsByCategory('world', worldExclude).slice(0, 5));
 
   const latest = getAllPosts().filter((p) => !used.has(p.slug)).slice(0, 5);
 
@@ -80,9 +79,6 @@ export default function HomePage() {
         <AdBox size="inline" />
       </div>
 
-      <div className="my-8">
-        <VideoWidget />
-      </div>
 
       <div className="max-w-container mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-0 items-start">
         <div className="lg:pr-8">
@@ -90,8 +86,8 @@ export default function HomePage() {
         </div>
         <div className="lg:px-8 lg:border-l lg:border-[#808080]/40">
           <CategoryTabWidget
-            categorySlug="apps"
-            excludeSlugs={appsExclude}
+            categorySlug="business"
+            excludeSlugs={businessExclude}
             showComments
           />
         </div>
@@ -114,13 +110,13 @@ export default function HomePage() {
         </div>
       </div>
 
-      <ThemedFeature label="On the Road" posts={carsPosts} />
+      <ThemedFeature label="Markets" posts={financePosts} />
 
       <div className="max-w-container mx-auto px-4 py-8">
         <OpinionStrip
-          categorySlug="science"
+          categorySlug="world"
           limit={5}
-          excludeSlugs={scienceExclude}
+          excludeSlugs={worldExclude}
         />
       </div>
 

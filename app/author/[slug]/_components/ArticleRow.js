@@ -24,10 +24,7 @@ export default function ArticleRow({ post }) {
         )}
         <div className="mt-2 flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] sm:text-xs font-sans uppercase tracking-wide text-ink-muted">
           <span className="text-[#B5651D] font-semibold normal-case">{formatDate(post.date)}</span>
-          <span className="flex items-center gap-1 normal-case text-ink-muted">
-            <CommentIcon className="w-3.5 h-3.5" />
-            {post.comments}
-          </span>
+
         </div>
       </div>
       {post.image && (

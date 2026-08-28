@@ -12,15 +12,17 @@ export default function NavLinks({ navItems }) {
   };
 
   return (
-    <nav className="hidden lg:flex items-center gap-6">
+    <nav className="hidden lg:flex items-center gap-8 h-full">
       {navItems.map((item) => {
         const active = isActive(item.href);
         return (
           <Link
             key={item.href}
             href={item.href}
-            className={`text-[15px] font-normal font-serif transition-colors ${
-              active ? 'text-brand' : 'text-ink hover:text-brand'
+            className={`flex items-center h-full text-[15px] font-sans font-bold border-b-[3px] transition-colors ${
+              active
+                ? 'text-brand border-brand'
+                : 'text-ink border-transparent hover:text-brand'
             }`}
           >
             {item.label}

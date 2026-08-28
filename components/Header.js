@@ -3,6 +3,7 @@ import Icon from '@/components/Icon';
 import MobileMenu from '@/components/MobileMenu';
 import NavLinks from '@/components/NavLinks';
 import Logo from '@/components/Logo';
+import SearchButton from '@/components/SearchButton';
 import { getSite, getTrendingPosts, formatFullDate } from '@/lib/data';
 import BreakingNews from '@/components/BreakingNews';
 
@@ -20,7 +21,8 @@ export default function Header() {
         {/* Left: mobile hamburger + date (date hidden on small screens to make room for the logo) */}
         <div className="flex items-center justify-start gap-3">
           <MobileMenu navItems={site.mainNav} />
-          <span className="hidden sm:inline text-xs sm:text-sm font-serif font-normal text-ink-light">
+          <span className="hidden sm:flex items-center gap-2 text-xs sm:text-sm font-sans font-normal text-gray-500">
+            <Icon name="calendar" className="w-4 h-4 shrink-0" filled={false} />
             {today}
           </span>
         </div>
@@ -30,39 +32,16 @@ export default function Header() {
           <Logo size="lg" />
         </Link>
 
-        {/* Right: log in + search (mobile), + account/search (desktop) */}
+        {/* Right: search */}
         <div className="flex items-center justify-end gap-3 sm:gap-4">
-          <Link
-            href="#"
-            className="hidden sm:inline text-sm font-semibold text-ink hover:text-brand transition-colors"
-          >
-            Log in
-          </Link>
-          <span className="hidden sm:inline w-px h-4 bg-gray-300" aria-hidden="true" />
-          <button
-            aria-label="Search"
-            className="flex items-center justify-center w-9 h-9 text-ink hover:text-brand transition-colors"
-          >
-            <Icon name="search" className="w-5 h-5" filled={false} />
-          </button>
+          <SearchButton />
         </div>
       </div>
 
-      {/* Nav bar: category links centered, Menu control right, separated by a rule */}
-      <div className="hidden lg:block border-t border-b border-ink">
-        <div className="max-w-container mx-auto px-4 grid grid-cols-3 items-center h-12">
-          <span aria-hidden="true" />
-          <div className="flex items-center justify-center">
-            <NavLinks navItems={site.mainNav} />
-          </div>
-
-          <button
-            aria-label="Menu"
-            className="flex items-center justify-self-end gap-2 px-2 py-2 text-[15px] font-serif font-normal text-ink hover:text-brand transition-colors"
-          >
-            <span>Menu</span>
-            <Icon name="menu" className="w-5 h-5" filled={false} />
-          </button>
+      {/* Nav bar: category links centered, separated by a thin rule */}
+      <div className="hidden lg:block border-t border-gray-100">
+        <div className="max-w-container mx-auto px-4 flex items-center justify-center h-12">
+          <NavLinks navItems={site.mainNav} />
         </div>
       </div>
 
@@ -73,120 +52,66 @@ export default function Header() {
 <div className="
   flex
   items-center
-  h-10
+  h-11
+  sm:h-12
   overflow-hidden
   border-t
   border-gray-100
-  bg-white
+  bg-gray-50
 ">
 
-    {/* Flash Badge — flush to the left edge of the screen, no red container fill */}
-<span className="
-  flex
-  items-center
-  gap-2
-  shrink-0
-  bg-white
-  text-[#0F3D91]
-  pl-4
-  pr-4
-  sm:pl-6
-  py-3
-  text-sm
-  font-extrabold
-  uppercase
-  tracking-wide
-">
+    {/* Flash Badge — angled ribbon, flush to the left edge of the screen */}
+    <div
+      className="
+        relative
+        flex
+        items-center
+        gap-1.5
+        sm:gap-2
+        shrink-0
+        h-full
+        bg-brand
+        text-white
+        pl-4
+        pr-6
+        sm:pl-6
+        sm:pr-9
+        text-[11px]
+        sm:text-sm
+        font-sans
+        font-extrabold
+        uppercase
+        tracking-wide
+        rounded-l-md
+      "
+      style={{ clipPath: 'polygon(0 0, 100% 0, calc(100% - 16px) 100%, 0 100%)' }}
+    >
 
       <Icon
         name="bolt"
         className="
-          w-3.5
-          h-3.5
+          w-3
+          h-3
+          sm:w-3.5
+          sm:h-3.5
+          shrink-0
           animate-breaking-pulse
         "
       />
 
-      Breaking News
+      <span className="whitespace-nowrap">Breaking News</span>
 
-    </span>
-
-
-
-    {/* Flash Headline */}
-    <div className="flex-1 px-4 min-w-0">
-      <BreakingNews breaking={breaking} />
     </div>
 
+    {/* Divider */}
+    <span
+      className="hidden sm:block w-px h-5 bg-gray-300 shrink-0 ml-3 sm:ml-4"
+      aria-hidden="true"
+    />
 
-
-    {/* Prev/Next controls — pinned to the right end of the bar */}
-    <div className="
-      hidden
-      md:flex
-      items-center
-      gap-2
-      shrink-0
-      pr-4
-      sm:pr-6
-    ">
-
-
-      <button
-        aria-label="Previous headline"
-        className="
-          w-7
-          h-7
-          flex
-          items-center
-          justify-center
-          border
-          border-gray-300
-          rounded
-          text-gray-400
-          hover:text-brand
-          hover:border-brand
-          transition
-        "
-      >
-
-        <Icon
-          name="chevronRight"
-          className="w-3.5 h-3.5 rotate-180"
-          filled={false}
-        />
-
-      </button>
-
-
-
-      <button
-        aria-label="Next headline"
-        className="
-          w-7
-          h-7
-          flex
-          items-center
-          justify-center
-          border
-          border-gray-300
-          rounded
-          text-gray-400
-          hover:text-brand
-          hover:border-brand
-          transition
-        "
-      >
-
-        <Icon
-          name="chevronRight"
-          className="w-3.5 h-3.5"
-          filled={false}
-        />
-
-      </button>
-
-
+    {/* Flash Headline + prev/next controls (state lives together in BreakingNews) */}
+    <div className="flex-1 h-full min-w-0 pl-3 sm:pl-4 pr-3 sm:pr-6">
+      <BreakingNews breaking={breaking} />
     </div>
 
 </div>

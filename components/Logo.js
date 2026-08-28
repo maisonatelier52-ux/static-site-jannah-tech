@@ -14,7 +14,6 @@ export default function Logo({ variant = 'dark', size = 'base' }) {
   const isLight = variant === 'light';
   const sizeClasses = size === 'lg' ? 'text-3xl sm:text-4xl' : 'text-xl sm:text-2xl';
   const boxSize = size === 'lg' ? 'h-11 w-[220px] sm:h-12 sm:w-[250px]' : 'h-8 w-[140px] sm:h-9 sm:w-[170px]';
-  const globeSize = size === 'lg' ? 'w-[0.78em] h-[0.78em] mx-[0.02em]' : 'w-[0.74em] h-[0.74em] mx-[0.02em]';
 
   if (USE_IMAGE_LOGO) {
     return (
@@ -36,23 +35,7 @@ export default function Logo({ variant = 'dark', size = 'base' }) {
         isLight ? 'text-white' : 'text-ink'
       }`}
     >
-      <span>EL</span>
-      {/* Globe/target mark standing in for the "O" — swap for a real logo mark via LOGO_IMAGE_SRC above */}
-      <svg
-        viewBox="0 0 24 24"
-        className={globeSize}
-        aria-hidden="true"
-      >
-        <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="2.4" />
-        <path d="M2 12h20M12 2v20" stroke="currentColor" strokeWidth="2.4" />
-        <path
-          d="M12 2c3 2.6 4.6 6.2 4.6 10S15 19.4 12 22c-3-2.6-4.6-6.2-4.6-10S9 4.6 12 2Z"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.4"
-        />
-      </svg>
-      <span>MUNDO</span>
+      <span>Domain Name</span>
     </span>
   );
 }

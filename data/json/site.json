@@ -1,13 +1,14 @@
 {
   "name": "Jannah Technology",
   "tagline": "Just another TieLabs Themes Sites site",
+  "siteUrl": "https://www.jannahtech.example.com",
   "logo": "/images/logo/site-logo.svg",
   "mainNav": [
     { "label": "Home", "href": "/" },
-    { "label": "Tech", "href": "/tech" },
-    { "label": "Science", "href": "/science" },
-    { "label": "Apps", "href": "/apps" },
-    { "label": "Cars", "href": "/cars" },
+    { "label": "U.S.", "href": "/us" },
+    { "label": "World", "href": "/world" },
+    { "label": "Business", "href": "/business" },
+    { "label": "Finance", "href": "/finance" },
     {
       "label": "Reviews",
       "href": "/reviews",
@@ -67,7 +68,6 @@
     { "label": "Yahoo", "href": "https://yahoo.com/" }
   ],
   "otherWebsites": {
-    "title": "Other Websites of Jannah Technology",
     "columns": [
       {
         "title": "The World",
@@ -124,7 +124,7 @@
       { "label": "Contact", "href": "#" }
     ]
   },
-  "tagCloud": ["cameras", "gallery", "headphone", "laptop", "phones", "science", "sound", "tech", "video"],
+  "tagCloud": ["business", "cameras", "economy", "finance", "gallery", "headphone", "laptop", "markets", "phones", "us", "world"],
   "copyright": "© Copyright 2026, Jannah Technology. All Rights Reserved",
   "newsletter": {
     "eyebrow": "With Product You Purchase",

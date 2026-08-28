@@ -7,6 +7,11 @@ import {
   getTrendingPosts,
   getTopLevelCategories,
 } from '@/lib/data';
+import {
+  getCategoryMetadata,
+  getBreadcrumbJsonLd,
+  getCategoryBreadcrumbItems,
+} from '@/lib/seo';
 
 import CategoryPageHeader from './_components/CategoryPageHeader';
 import TopStoriesSection from './_components/TopStoriesSection';
@@ -22,10 +27,7 @@ export async function generateMetadata({ params }) {
   const { category: categorySlug } = await params;
   const category = getCategoryBySlug(categorySlug);
   if (!category) return {};
-  return {
-    title: category.name,
-    description: category.description,
-  };
+  return getCategoryMetadata(category);
 }
 
 export default async function CategoryPage({ params }) {
@@ -64,8 +66,16 @@ export default async function CategoryPage({ params }) {
     ? getChildCategories(category.parent).filter((c) => c.slug !== category.slug)
     : getTopLevelCategories().filter((c) => c.slug !== category.slug);
 
+  const breadcrumbJsonLd = getBreadcrumbJsonLd(getCategoryBreadcrumbItems(category));
+
   return (
     <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-10 pb-10">
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+
       <CategoryPageHeader category={category} childCategories={childCategories} />
 
       {posts.length === 0 ? (

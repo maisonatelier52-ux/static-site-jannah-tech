@@ -25,7 +25,7 @@ export default function MobileMenu({ navItems }) {
           />
           <div className="absolute left-0 top-0 h-full w-[85%] max-w-sm bg-white shadow-xl flex flex-col">
             <div className="flex items-center justify-between p-4 border-b border-gray-100">
-              <span className="font-extrabold text-lg">Menu</span>
+              <span className="font-extrabold text-lg">Domain Name</span>
               <button
                 aria-label="Close menu"
                 onClick={() => setOpen(false)}
