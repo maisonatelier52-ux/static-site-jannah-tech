@@ -2,20 +2,30 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Icon from '@/components/Icon';
 import { getPostUrl } from '@/lib/data';
+
+const TABS = [
+  { key: 'read', label: 'Most read', icon: 'eye' },
+  { key: 'trending', label: 'Trending now', icon: 'bolt' },
+];
 
 function RankedItem({ post, rank }) {
   const url = getPostUrl(post);
   return (
-    <li className="py-4 border-b border-gray-100 last:border-0 last:pb-0 first:pt-0">
-      <Link href={url} className="flex gap-4 items-start group">
-        <span className="relative shrink-0 w-8 h-8 mt-0.5">
-          <span className="absolute inset-0 top-1 rounded-full bg-red-600" aria-hidden="true" />
-          <span className="absolute inset-0 flex items-center justify-center rounded-full bg-ink text-white text-sm font-bold">
-            {rank}
-          </span>
+    <li>
+      <Link
+        href={url}
+        className="group flex gap-3.5 items-start rounded-xl px-2.5 py-3.5 -mx-2.5 transition-colors hover:bg-brand/[0.06]"
+      >
+        <span
+          className="relative shrink-0 mt-0.5 w-8 h-8 rounded-full bg-gradient-to-br from-brand to-brand-light
+                     text-white flex items-center justify-center font-sans font-extrabold text-[13px]
+                     shadow-sm shadow-brand/30 transition-transform duration-200 group-hover:scale-110"
+        >
+          {rank}
         </span>
-        <span className="font-sans text-sm leading-snug text-ink group-hover:text-brand transition-colors">
+        <span className="font-serif font-bold text-[13.5px] sm:text-sm leading-snug text-ink pt-1 line-clamp-3 group-hover:text-brand transition-colors">
           {post.title}
         </span>
       </Link>
@@ -34,36 +44,36 @@ export default function AuthorMostReadSidebar({ mostRead = [], trending = [] }) 
   const activePosts = tab === 'read' ? mostRead : trending;
 
   return (
-    <aside className="lg:sticky lg:top-24 lg:self-start w-full lg:w-[336px] shrink-0 border border-gray-200">
-      <div className="flex items-stretch border-b border-gray-200">
-        <button
-          type="button"
-          onClick={() => setTab('read')}
-          disabled={!hasRead}
-          className={`flex-1 py-3 text-sm sm:text-[15px] font-sans text-center border-b-2 transition-colors ${
-            tab === 'read'
-              ? 'font-bold text-ink border-brand'
-              : 'font-medium text-ink-muted border-transparent hover:text-ink disabled:opacity-40'
-          }`}
-        >
-          Most read
-        </button>
-        <span className="w-px bg-gray-200" aria-hidden="true" />
-        <button
-          type="button"
-          onClick={() => setTab('trending')}
-          disabled={!hasTrending}
-          className={`flex-1 py-3 text-sm sm:text-[15px] font-sans text-center border-b-2 transition-colors ${
-            tab === 'trending'
-              ? 'font-bold text-ink border-brand'
-              : 'font-medium text-ink-muted border-transparent hover:text-ink disabled:opacity-40'
-          }`}
-        >
-          Trending now
-        </button>
+    <aside className="lg:sticky lg:top-24 lg:self-start w-full lg:w-[336px] shrink-0 rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
+      {/* Segmented pill control — the active tab floats on a white chip
+          inside a soft gray track instead of a plain underline. */}
+      <div className="flex items-stretch gap-1 p-1.5 bg-gray-50">
+        {TABS.map((t) => {
+          const disabled = t.key === 'read' ? !hasRead : !hasTrending;
+          const isActive = tab === t.key;
+          return (
+            <button
+              key={t.key}
+              type="button"
+              onClick={() => setTab(t.key)}
+              disabled={disabled}
+              className={`flex-1 flex items-center justify-center gap-1.5 py-2.5 text-sm sm:text-[15px] rounded-xl transition-all duration-200 ${
+                isActive
+                  ? 'font-bold text-brand bg-white shadow-sm'
+                  : 'font-medium text-ink-muted hover:text-ink disabled:opacity-40'
+              }`}
+            >
+              <Icon name={t.icon} className="w-3.5 h-3.5" filled={t.key === 'trending'} />
+              {t.label}
+            </button>
+          );
+        })}
       </div>
 
-      <ul className="px-4 sm:px-5">
+      {/* Balanced top/bottom padding here (py-3) is what was missing
+          before — the list no longer sits flush against the tab bar
+          above it or the card's bottom edge below it. */}
+      <ul className="px-4 sm:px-5 py-3">
         {activePosts.map((post, i) => (
           <RankedItem key={post.slug} post={post} rank={i + 1} />
         ))}

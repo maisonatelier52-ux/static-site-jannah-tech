@@ -16,17 +16,32 @@ import { getAllPosts, getAuthorBySlug, getCategoryBySlug, getPostUrl } from '@/l
  *
  * excludeSlugs lets the homepage avoid repeating a story used here in a
  * later section.
+ *
+ * rightCSlug optionally pins a specific post into the right column's
+ * second slot (the image-led story) instead of whatever would land
+ * there by chronological order — e.g. swapping in a different story
+ * from the same category without removing the original from the site,
+ * it's simply left free to surface elsewhere.
  */
-export default function TrendingGrid({ excludeSlugs = [] }) {
+export default function TrendingGrid({ excludeSlugs = [], rightCSlug = null }) {
   const exclude = new Set(excludeSlugs);
+
+  let rightCOverride = null;
+  if (rightCSlug) {
+    rightCOverride = getAllPosts().find((p) => p.slug === rightCSlug) || null;
+    if (rightCOverride) exclude.add(rightCSlug);
+  }
+
   const pool = getAllPosts().filter((p) => !exclude.has(p.slug));
-  if (pool.length < 7) return null;
+  const minNeeded = rightCOverride ? 6 : 7;
+  if (pool.length < minNeeded) return null;
 
   const [
     leftA, leftB, leftC,
     center, centerB,
-    rightB, rightC,
+    rightB, rightCFallback,
   ] = pool;
+  const rightC = rightCOverride || rightCFallback;
 
   const storyProps = (post, { bullet = false } = {}) => {
     const author = getAuthorBySlug(post.author);

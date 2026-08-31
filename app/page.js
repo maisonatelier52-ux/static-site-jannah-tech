@@ -30,8 +30,22 @@ export default function HomePage() {
   };
   const usedSlugs = () => Array.from(used);
 
+  // The right column's image-led slot in the top trending package
+  // originally fell on "Dick's Sporting Goods shares slide after Foot
+  // Locker weighs on earnings". It's swapped here for a different
+  // business story so the homepage lead-in shows fresh news — the
+  // original story isn't deleted, just no longer pinned to this slot,
+  // so it remains free to surface in the Business tab section below.
+  const REPLACED_TRENDING_SLUG = 'dicks-sporting-goods-foot-locker-earnings-miss';
+  const trendingReplacementSlug = 'alibaba-sells-videogame-business-stake';
+
   const trendingExclude = usedSlugs();
-  const trending = take(getAllPosts().filter((p) => !used.has(p.slug)).slice(0, 7));
+  const trending = take(
+    getAllPosts()
+      .filter((p) => !used.has(p.slug) && p.slug !== REPLACED_TRENDING_SLUG)
+      .slice(0, 6)
+      .concat(getAllPosts().filter((p) => p.slug === trendingReplacementSlug))
+  );
 
   const mustReadExclude = usedSlugs();
   const mustRead = take(getAllPosts().filter((p) => !used.has(p.slug)).slice(0, 6));
@@ -61,7 +75,10 @@ export default function HomePage() {
   return (
     <div>
       <div className="max-w-container mx-auto px-4 py-6 sm:py-10">
-        <TrendingGrid excludeSlugs={trendingExclude} />
+        <TrendingGrid
+          excludeSlugs={[...trendingExclude, REPLACED_TRENDING_SLUG]}
+          rightCSlug={trendingReplacementSlug}
+        />
       </div>
 
       <div className="max-w-container mx-auto px-4 py-4 sm:py-8 grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-10">
