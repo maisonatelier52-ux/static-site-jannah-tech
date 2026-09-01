@@ -3,9 +3,9 @@
     "slug": "admin",
     "name": "Tony Stark",
     "avatar": "/images/authors/tony-stark.jpg",
-    "bio": "Creator. Passionate tv fan. Introvert. Problem solver. Travel ninja. Music practitioner. Thinker.",
-    "role": "Senior Editor",
-    "postCount": 18,
+    "bio": "Tony Stark leads our U.S. news desk, covering national politics, public health and the stories playing out in communities across the country. Ten years on the Washington and states beat, with a focus on how national decisions land on Main Street.",
+    "role": "U.S. News Editor",
+    "postCount": 23,
     "socials": [
       { "label": "Facebook", "href": "https://facebook.com/tielabs", "icon": "facebook" },
       { "label": "X", "href": "https://twitter.com/tielabs", "icon": "x" },
@@ -18,12 +18,38 @@
     ]
   },
   {
+    "slug": "elena-marsh",
+    "name": "Elena Marsh",
+    "avatar": "/images/authors/elena-marsh.jpg",
+    "bio": "Elena Marsh covers world news, reporting on geopolitics, natural disasters and the international stories reshaping regions across the globe. She has reported from more than twenty countries, with a particular focus on the Asia-Pacific and the Middle East.",
+    "role": "International Correspondent",
+    "postCount": 4,
+    "socials": [
+      { "label": "Facebook", "href": "https://facebook.com/", "icon": "facebook" },
+      { "label": "X", "href": "https://twitter.com/", "icon": "x" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/", "icon": "linkedin" }
+    ]
+  },
+  {
+    "slug": "marcus-cole",
+    "name": "Marcus Cole",
+    "avatar": "/images/authors/marcus-cole.jpg",
+    "bio": "Marcus Cole covers corporate news, earnings and the deals reshaping the economy, from Wall Street megadeals to the executives and industries driving the headlines. He previously spent a decade covering markets and corporate strategy.",
+    "role": "Business Editor",
+    "postCount": 5,
+    "socials": [
+      { "label": "Facebook", "href": "https://facebook.com/", "icon": "facebook" },
+      { "label": "X", "href": "https://twitter.com/", "icon": "x" },
+      { "label": "LinkedIn", "href": "https://linkedin.com/", "icon": "linkedin" }
+    ]
+  },
+  {
     "slug": "ashraf",
     "name": "Danny Rand",
     "avatar": "/images/authors/danny-rand.jpg",
-    "bio": "Tech writer covering laptops, cameras and everything in between. Coffee-powered.",
-    "role": "Staff Writer",
-    "postCount": 11,
+    "bio": "Danny Rand covers markets, the Federal Reserve and personal finance, translating interest-rate decisions, market swings and household debt trends into what they actually mean for readers.",
+    "role": "Finance Writer",
+    "postCount": 19,
     "socials": [
       { "label": "Facebook", "href": "https://facebook.com/", "icon": "facebook" },
       { "label": "X", "href": "https://twitter.com/", "icon": "x" },
