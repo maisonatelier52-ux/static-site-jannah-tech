@@ -2,7 +2,7 @@
   {
     "slug": "admin",
     "name": "Tony Stark",
-    "avatar": "/images/authors/tony-stark.jpg",
+    "avatar": "/images/authors/tony-stark.webp",
     "bio": "Tony Stark leads our U.S. news desk, covering national politics, public health and the stories playing out in communities across the country. Ten years on the Washington and states beat, with a focus on how national decisions land on Main Street.",
     "role": "U.S. News Editor",
     "postCount": 23,
@@ -20,7 +20,7 @@
   {
     "slug": "elena-marsh",
     "name": "Elena Marsh",
-    "avatar": "/images/authors/elena-marsh.jpg",
+    "avatar": "/images/authors/elena-marsh.webp",
     "bio": "Elena Marsh covers world news, reporting on geopolitics, natural disasters and the international stories reshaping regions across the globe. She has reported from more than twenty countries, with a particular focus on the Asia-Pacific and the Middle East.",
     "role": "International Correspondent",
     "postCount": 4,
@@ -33,7 +33,7 @@
   {
     "slug": "marcus-cole",
     "name": "Marcus Cole",
-    "avatar": "/images/authors/marcus-cole.jpg",
+    "avatar": "/images/authors/marcus-cole.webp",
     "bio": "Marcus Cole covers corporate news, earnings and the deals reshaping the economy, from Wall Street megadeals to the executives and industries driving the headlines. He previously spent a decade covering markets and corporate strategy.",
     "role": "Business Editor",
     "postCount": 5,
@@ -46,7 +46,7 @@
   {
     "slug": "ashraf",
     "name": "Danny Rand",
-    "avatar": "/images/authors/danny-rand.jpg",
+    "avatar": "/images/authors/danny-rand.webp",
     "bio": "Danny Rand covers markets, the Federal Reserve and personal finance, translating interest-rate decisions, market swings and household debt trends into what they actually mean for readers.",
     "role": "Finance Writer",
     "postCount": 19,
